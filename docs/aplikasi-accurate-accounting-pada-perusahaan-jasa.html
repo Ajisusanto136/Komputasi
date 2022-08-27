@@ -1,0 +1,985 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Bab 3 Aplikasi Accurate Accounting Pada Perusahaan Jasa | Praktik Komputer Akuntansi - Aplikasi Accurate V.5</title>
+  <meta name="description" content="Edisi Pertama Buku Praktik Komputer Akuntansi" />
+  <meta name="generator" content="bookdown 0.28 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Bab 3 Aplikasi Accurate Accounting Pada Perusahaan Jasa | Praktik Komputer Akuntansi - Aplikasi Accurate V.5" />
+  <meta property="og:type" content="book" />
+  <meta property="og:image" content="/images/cover.png" />
+  <meta property="og:description" content="Edisi Pertama Buku Praktik Komputer Akuntansi" />
+  <meta name="github-repo" content="rstudio/bookdown-demo" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Bab 3 Aplikasi Accurate Accounting Pada Perusahaan Jasa | Praktik Komputer Akuntansi - Aplikasi Accurate V.5" />
+  
+  <meta name="twitter:description" content="Edisi Pertama Buku Praktik Komputer Akuntansi" />
+  <meta name="twitter:image" content="/images/cover.png" />
+
+<meta name="author" content="Anindyo Aji Susanto" />
+<meta name="author" content="Indra Kusumawardhani" />
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="aplikasi-accurate-accounting-v.html"/>
+<link rel="next" href="aplikasi-accurate-accounting-pada-perusahaan-dagang.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Praktik Komputer Akuntansi - Aplikasi Accurate V.5</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Pengantar</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#aplikasi-akuntansi-komputerisasian"><i class="fa fa-check"></i><b>1.1</b> Aplikasi Akuntansi Komputerisasian</a></li>
+<li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#aplikasi-accurate-accounting"><i class="fa fa-check"></i><b>1.2</b> Aplikasi <em>Accurate Accounting</em></a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="aplikasi-accurate-accounting-v.html"><a href="aplikasi-accurate-accounting-v.html"><i class="fa fa-check"></i><b>2</b> Aplikasi Accurate Accounting V.5</a>
+<ul>
+<li class="chapter" data-level="" data-path="aplikasi-accurate-accounting-v.html"><a href="aplikasi-accurate-accounting-v.html#capaian-pembelajaran"><i class="fa fa-check"></i>Capaian Pembelajaran</a></li>
+<li class="chapter" data-level="2.1" data-path="aplikasi-accurate-accounting-v.html"><a href="aplikasi-accurate-accounting-v.html#instalasi-aplikasi-accurate-accounting-v.5"><i class="fa fa-check"></i><b>2.1</b> Instalasi Aplikasi Accurate Accounting V.5</a></li>
+<li class="chapter" data-level="2.2" data-path="aplikasi-accurate-accounting-v.html"><a href="aplikasi-accurate-accounting-v.html#menjalankan-aplikasi-accurate-accounting-v.5"><i class="fa fa-check"></i><b>2.2</b> Menjalankan Aplikasi Accurate Accounting V.5</a></li>
+<li class="chapter" data-level="2.3" data-path="aplikasi-accurate-accounting-v.html"><a href="aplikasi-accurate-accounting-v.html#pengaturan-awal-perusahaan-melalui-accurate-accounting-v.5"><i class="fa fa-check"></i><b>2.3</b> Pengaturan Awal Perusahaan Melalui Accurate Accounting V.5</a></li>
+<li class="chapter" data-level="2.4" data-path="aplikasi-accurate-accounting-v.html"><a href="aplikasi-accurate-accounting-v.html#pengaturan-saldo-awal-akun-perusahaan"><i class="fa fa-check"></i><b>2.4</b> Pengaturan Saldo Awal Akun Perusahaan</a></li>
+<li class="chapter" data-level="2.5" data-path="aplikasi-accurate-accounting-v.html"><a href="aplikasi-accurate-accounting-v.html#penyelesaian-transaksi-akuntansi-perusahaan"><i class="fa fa-check"></i><b>2.5</b> Penyelesaian Transaksi Akuntansi Perusahaan</a></li>
+<li class="chapter" data-level="2.6" data-path="aplikasi-accurate-accounting-v.html"><a href="aplikasi-accurate-accounting-v.html#aktivitas-akhir-periode-period-end"><i class="fa fa-check"></i><b>2.6</b> Aktivitas Akhir Periode (Period End)</a></li>
+<li class="chapter" data-level="2.7" data-path="aplikasi-accurate-accounting-v.html"><a href="aplikasi-accurate-accounting-v.html#penyusunan-laporan-keuangan"><i class="fa fa-check"></i><b>2.7</b> Penyusunan Laporan Keuangan</a></li>
+<li class="chapter" data-level="2.8" data-path="aplikasi-accurate-accounting-v.html"><a href="aplikasi-accurate-accounting-v.html#menutup-aplikasi-accurate-accounting-v.5-dan-melakukan-backup-data-secara-manual"><i class="fa fa-check"></i><b>2.8</b> Menutup Aplikasi Accurate Accounting V.5 dan Melakukan Backup Data Secara Manual</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="aplikasi-accurate-accounting-pada-perusahaan-jasa.html"><a href="aplikasi-accurate-accounting-pada-perusahaan-jasa.html"><i class="fa fa-check"></i><b>3</b> Aplikasi Accurate Accounting Pada Perusahaan Jasa</a>
+<ul>
+<li class="chapter" data-level="" data-path="aplikasi-accurate-accounting-pada-perusahaan-jasa.html"><a href="aplikasi-accurate-accounting-pada-perusahaan-jasa.html#capaian-pembelajaran-1"><i class="fa fa-check"></i>Capaian Pembelajaran</a></li>
+<li class="chapter" data-level="3.1" data-path="aplikasi-accurate-accounting-pada-perusahaan-jasa.html"><a href="aplikasi-accurate-accounting-pada-perusahaan-jasa.html#sekilas-perusahaan-jasa"><i class="fa fa-check"></i><b>3.1</b> Sekilas Perusahaan Jasa</a></li>
+<li class="chapter" data-level="3.2" data-path="aplikasi-accurate-accounting-pada-perusahaan-jasa.html"><a href="aplikasi-accurate-accounting-pada-perusahaan-jasa.html#contoh-kasus-perusahaan-jasa-dengan-accurate-accounting-v.5"><i class="fa fa-check"></i><b>3.2</b> Contoh Kasus Perusahaan Jasa Dengan Accurate Accounting V.5</a></li>
+<li class="chapter" data-level="3.3" data-path="aplikasi-accurate-accounting-pada-perusahaan-jasa.html"><a href="aplikasi-accurate-accounting-pada-perusahaan-jasa.html#langkah-langkah-pengerjaan"><i class="fa fa-check"></i><b>3.3</b> Langkah-Langkah Pengerjaan</a></li>
+<li class="chapter" data-level="3.4" data-path="aplikasi-accurate-accounting-pada-perusahaan-jasa.html"><a href="aplikasi-accurate-accounting-pada-perusahaan-jasa.html#laporan-keuangan"><i class="fa fa-check"></i><b>3.4</b> Laporan Keuangan</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="aplikasi-accurate-accounting-pada-perusahaan-dagang.html"><a href="aplikasi-accurate-accounting-pada-perusahaan-dagang.html"><i class="fa fa-check"></i><b>4</b> Aplikasi Accurate Accounting Pada Perusahaan Dagang</a>
+<ul>
+<li class="chapter" data-level="" data-path="aplikasi-accurate-accounting-pada-perusahaan-dagang.html"><a href="aplikasi-accurate-accounting-pada-perusahaan-dagang.html#capaian-pembelajaran-2"><i class="fa fa-check"></i>Capaian Pembelajaran</a></li>
+<li class="chapter" data-level="4.1" data-path="aplikasi-accurate-accounting-pada-perusahaan-dagang.html"><a href="aplikasi-accurate-accounting-pada-perusahaan-dagang.html#sekilas-mengenai-perusahaan-dagang"><i class="fa fa-check"></i><b>4.1</b> Sekilas Mengenai Perusahaan Dagang</a></li>
+<li class="chapter" data-level="4.2" data-path="aplikasi-accurate-accounting-pada-perusahaan-dagang.html"><a href="aplikasi-accurate-accounting-pada-perusahaan-dagang.html#contoh-kasus-perusahaan-dagang"><i class="fa fa-check"></i><b>4.2</b> Contoh Kasus Perusahaan Dagang</a></li>
+<li class="chapter" data-level="4.3" data-path="aplikasi-accurate-accounting-pada-perusahaan-dagang.html"><a href="aplikasi-accurate-accounting-pada-perusahaan-dagang.html#langkah-langkah-pengerjaan-1"><i class="fa fa-check"></i><b>4.3</b> Langkah-Langkah Pengerjaan</a></li>
+<li class="chapter" data-level="4.4" data-path="aplikasi-accurate-accounting-pada-perusahaan-dagang.html"><a href="aplikasi-accurate-accounting-pada-perusahaan-dagang.html#laporan-keuangan-1"><i class="fa fa-check"></i><b>4.4</b> Laporan Keuangan</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="latihan-kasus-perusahaan-jasa.html"><a href="latihan-kasus-perusahaan-jasa.html"><i class="fa fa-check"></i><b>5</b> Latihan Kasus Perusahaan Jasa</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="latihan-kasus-perusahaan-jasa.html"><a href="latihan-kasus-perusahaan-jasa.html#latihan-1"><i class="fa fa-check"></i><b>5.1</b> Latihan 1</a></li>
+<li class="chapter" data-level="5.2" data-path="latihan-kasus-perusahaan-jasa.html"><a href="latihan-kasus-perusahaan-jasa.html#latihan-2"><i class="fa fa-check"></i><b>5.2</b> Latihan 2</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="latihan-kasus-perusahaan-dagang.html"><a href="latihan-kasus-perusahaan-dagang.html"><i class="fa fa-check"></i><b>6</b> Latihan Kasus Perusahaan Dagang</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="latihan-kasus-perusahaan-dagang.html"><a href="latihan-kasus-perusahaan-dagang.html#latihan-1-1"><i class="fa fa-check"></i><b>6.1</b> Latihan 1</a></li>
+<li class="chapter" data-level="6.2" data-path="latihan-kasus-perusahaan-dagang.html"><a href="latihan-kasus-perusahaan-dagang.html#latihan-2-1"><i class="fa fa-check"></i><b>6.2</b> Latihan 2</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="daftar-pustaka.html"><a href="daftar-pustaka.html"><i class="fa fa-check"></i>Daftar Pustaka</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Praktik Komputer Akuntansi - Aplikasi Accurate V.5</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="aplikasi-accurate-accounting-pada-perusahaan-jasa" class="section level1 hasAnchor" number="3">
+<h1><span class="header-section-number">Bab 3</span> Aplikasi Accurate Accounting Pada Perusahaan Jasa<a href="aplikasi-accurate-accounting-pada-perusahaan-jasa.html#aplikasi-accurate-accounting-pada-perusahaan-jasa" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="capaian-pembelajaran-1" class="section level2 unnumbered hasAnchor">
+<h2>Capaian Pembelajaran<a href="aplikasi-accurate-accounting-pada-perusahaan-jasa.html#capaian-pembelajaran-1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Setelah mempelajari bab ini, Anda diharapkan mampu:</p>
+<ol style="list-style-type: decimal">
+<li>Menjelaskan secara sekilas mengenai perusahaan jasa.</li>
+<li>Mempraktikkan contoh kasus dari perusahaan jasa dengan Accurate Accounting V.5.</li>
+<li>Menjelaskan dan mempraktikkan langkah – langkah persiapan bekerja dengan Accurate Accounting V.5.</li>
+<li>Menjelaskan dan mempraktikkan cara melakukan input transaksi – transaksi yang terjadi di perusahaan jasa dengan Accurate Accounting V.5.</li>
+<li>Menjelaskan dan mempraktikkan cara menyusun laporan keuangan dengan Accurate Accounting V.5.</li>
+</ol>
+</div>
+<div id="sekilas-perusahaan-jasa" class="section level2 hasAnchor" number="3.1">
+<h2><span class="header-section-number">3.1</span> Sekilas Perusahaan Jasa<a href="aplikasi-accurate-accounting-pada-perusahaan-jasa.html#sekilas-perusahaan-jasa" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Perusahaan jasa adalah suatu entitas/unit usaha yang kegiatan utamanya menyediakan layanan atau jasa dengan tujuan memperoleh keuntungan atau laba. Produk yang dihasilkan perusahaan jasa bersifat tidak berwujud atau kombinasi antara barang dengan layanan. Sebagai contoh, perusahaan transportasi umum yang menyediakan jasa transportasi umum kepada para pelanggan. Perusahaan ini memerlukan alat/sarana transportasi, seperti mobil, bus, kapal laut, atau pesawat terbang. Siklus akuntansi untuk menyusun laporan keuangan pada perusahaan jasa terdiri dari beberapa langkah berikut:</p>
+<ol style="list-style-type: lower-alpha">
+<li>Pencatatan</li>
+<li>Penggolongan</li>
+<li>Pengikhtisaran</li>
+<li>Laporan Keuangan</li>
+</ol>
+<p>Beberapa karakteristik yang dimiliki oleh perusahaan jasa, antara lain:</p>
+<ol style="list-style-type: lower-alpha">
+<li>Tidak memiliki wujud (sifat abstrak dan tidak bisa dilihat).</li>
+<li>Produk yang dihasilkannya tidak standar atau bervariasi (heterogenitas).</li>
+<li>Tidak dapat dipisahkan antara produk yang dihasilkan dengan produk yang dikonsumsi.</li>
+<li>Tidak dapat disimpan karena produk jasa tak berwujud.</li>
+</ol>
+<p>Berikut ciri-ciri perusahaan dari perusahaan yang dapat Anda kenali dengan mudah:</p>
+<ol style="list-style-type: lower-alpha">
+<li>Pendapatan berasal dari penyediaan jasa kepada para pelanggan.</li>
+<li>Dalam proses penyediaan suatu produk jasa, perusahaan dapat menggunakan dukungan dari produk fisik, tetapi juga bisa tidak.</li>
+<li>Tidak memiliki persediaan suatu produk dalam bentuk fisik karena produk yang dihasilkan merupakan barang takberwujud (jasa). Produk yang dihasilkan hanya bisa dirasakan manfaatnya, tetapi tidak dapat dilihat fisiknya.</li>
+<li>Jasa yang diberikan tidak sama. Hal ini karena kemungkinan setiap pelanggan memperoleh jenis layanan/jasa yang berbeda.</li>
+<li>Besarnya harga yang dibayarkan para pelanggan umumnya memiliki sifat yang tidak mutlak karena harga yang ditetapkan perusahaan tergantung pada jenis layanan/jasa yang diberikan dan juga tentunya, tingkat kebutuhan pelanggan.</li>
+<li>Jasa yang dihasilkan tidak dapat disimpan. Hal ini berarti jasa yang disediakan perusahaan sama dengan jasa yang dikonsumsi pelanggannya.</li>
+</ol>
+</div>
+<div id="contoh-kasus-perusahaan-jasa-dengan-accurate-accounting-v.5" class="section level2 hasAnchor" number="3.2">
+<h2><span class="header-section-number">3.2</span> Contoh Kasus Perusahaan Jasa Dengan Accurate Accounting V.5<a href="aplikasi-accurate-accounting-pada-perusahaan-jasa.html#contoh-kasus-perusahaan-jasa-dengan-accurate-accounting-v.5" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Tn. Dimas memiliki sebuah bengkel servis kendaraan bernama Bengkel Mutu yang berlokasi di Jalan Tunggul, Ambarketawang, Yogyakarta. Tn. Dimas telah memulai usahanya sejak bulan Maret 2015 dan saat ini bengkel tersebut memiliki dua orang karyawan.</p>
+<p>BENGKEL MUTU NERACA SALDO</p>
+<p>Per Tanggal 1 Desember 2016</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left;">
+Nomor Akun
+</th>
+<th style="text-align:left;">
+Nama Akun
+</th>
+<th style="text-align:left;">
+Debit
+</th>
+<th style="text-align:left;">
+Kredit
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+1-1101
+</td>
+<td style="text-align:left;">
+Kas
+</td>
+<td style="text-align:left;">
+Rp. 25.000.000
+</td>
+<td style="text-align:left;">
+<ul>
+<li></td>
+</tr>
+<tr>
+<td style="text-align:left;">
+1-1201
+</td>
+<td style="text-align:left;">
+Piutang Usaha
+</td>
+<td style="text-align:left;">
+Rp. 500.000
+</td>
+<td style="text-align:left;">
+<ul>
+<li></td>
+</tr>
+<tr>
+<td style="text-align:left;">
+1-1400
+</td>
+<td style="text-align:left;">
+Perlengkapan
+</td>
+<td style="text-align:left;">
+Rp. 500.000
+</td>
+<td style="text-align:left;">
+<ul>
+<li></td>
+</tr>
+<tr>
+<td style="text-align:left;">
+1-1500
+</td>
+<td style="text-align:left;">
+Sewa Dibayar Dimuka
+</td>
+<td style="text-align:left;">
+Rp. 5.000.000
+</td>
+<td style="text-align:left;">
+<ul>
+<li></td>
+</tr>
+<tr>
+<td style="text-align:left;">
+1-2100
+</td>
+<td style="text-align:left;">
+Peralatan
+</td>
+<td style="text-align:left;">
+Rp. 10.000.000
+</td>
+<td style="text-align:left;">
+<ul>
+<li></td>
+</tr>
+<tr>
+<td style="text-align:left;">
+1-2101
+</td>
+<td style="text-align:left;">
+Akumulasi Penyusutan Peralatan
+</td>
+<td style="text-align:left;">
+<ul>
+<li></td>
+<td style="text-align:left;">
+Rp. 3.500.000
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+2-1100
+</td>
+<td style="text-align:left;">
+Utang Usaha
+</td>
+<td style="text-align:left;">
+<ul>
+<li></td>
+<td style="text-align:left;">
+Rp. 300.000
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+3-1100
+</td>
+<td style="text-align:left;">
+Modal Tn. Dimas
+</td>
+<td style="text-align:left;">
+<ul>
+<li></td>
+<td style="text-align:left;">
+Rp. 37.200.000
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Total
+</td>
+<td style="text-align:left;">
+NA
+</td>
+<td style="text-align:left;">
+Rp 41.000.000
+</td>
+<td style="text-align:left;">
+Rp 41.000.000
+</td>
+</tr>
+</tbody>
+</table>
+Daftar Piutang dan Utang
+<table>
+<thead>
+<tr>
+<th style="text-align:left;">
+Kode Pelanggan
+</th>
+<th style="text-align:left;">
+Nama Pelanggan
+</th>
+<th style="text-align:left;">
+Alamat
+</th>
+<th style="text-align:left;">
+Kota
+</th>
+<th style="text-align:left;">
+Saldo
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+C – 001
+</td>
+<td style="text-align:left;">
+Tn Abdul
+</td>
+<td style="text-align:left;">
+Jalan Pasar Raya No 5
+</td>
+<td style="text-align:left;">
+Yogyakarta
+</td>
+<td style="text-align:left;">
+Rp. 500.000
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Total
+</td>
+<td style="text-align:left;">
+<ul>
+<li></td>
+<td style="text-align:left;">
+<ul>
+<li></td>
+<td style="text-align:left;">
+<ul>
+<li></td>
+<td style="text-align:left;">
+Rp. 500.000
+</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th style="text-align:left;">
+Kode Pemasok
+</th>
+<th style="text-align:left;">
+Nama Pemasok
+</th>
+<th style="text-align:left;">
+Alamat
+</th>
+<th style="text-align:left;">
+Kota
+</th>
+<th style="text-align:left;">
+Saldo
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+S – 001
+</td>
+<td style="text-align:left;">
+Toko Jaya
+</td>
+<td style="text-align:left;">
+Jalan Khatib No 7
+</td>
+<td style="text-align:left;">
+Yogyakarta
+</td>
+<td style="text-align:left;">
+Rp. 300.000
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Total
+</td>
+<td style="text-align:left;">
+<ul>
+<li></td>
+<td style="text-align:left;">
+<ul>
+<li></td>
+<td style="text-align:left;">
+<ul>
+<li></td>
+<td style="text-align:left;">
+Rp. 300.000
+</td>
+</tr>
+</tbody>
+</table>
+Berikut transaksi – transaksi yang terjadi selama bulan Desember 2016 :</li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+<p>3 Desember 2016 Membeli perlengkapan untuk bengkel sebesar Rp 500.000 secara tunai.</p>
+<p>4 Desember 2016 Menerima pendapatan servis sebesar Rp 1.500.000 secara tunai.</p>
+<p>10 Desember 2016 Menerima pelunasan piutang usaha sebesar Rp 400.000.</p>
+<p>15 Desember 2016 Membayar biaya Listrik, air, dan telepon sebesar Rp 300.000.</p>
+<p>17 Desember 2016 Membayar utang usaha sebesar Rp 250.000 20 Desember 2016 Menerima pendapatan servis sebesar Rp 3.000.000 secara tunai.</p>
+<p>30 Desember 2016 Membayar gaji dua orang karyawan sebesar Rp 3.000.000</p>
+<p>Data Penyesuaian:</p>
+<ol style="list-style-type: lower-alpha">
+<li>Perlengkapan yang digunakan senilai Rp500.000.</li>
+<li>Sewa dibayar dimuka adalah sewa tempat untuk bengkel selama 1 tahun terhitung mulai bulan Januari 2016.</li>
+<li>Penyusutan peralatan menggunakan metode garis lurus dengan umur ekonomis selama lima tahun. Peralatan tersebut dibeli pada bulan Maret 2015 dan langsung digunakan.</li>
+</ol>
+<p>Anda diminta untuk:</p>
+<ol style="list-style-type: decimal">
+<li>Membuat laporan akuntansi menggunakan Accurate Accounting V.5</li>
+<li>Melakukan beberapa aktivitas akhir periode yang diperlukan.</li>
+<li>Membuat laporan keuangan akhir periode yang dibutuhkan.</li>
+</ol>
+<p>Daftar Akun (Account List)</p>
+<p>Bengkel Mutu</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left;">
+No Akun
+</th>
+<th style="text-align:left;">
+Nama Akun
+</th>
+<th style="text-align:left;">
+Tipe
+</th>
+<th style="text-align:left;">
+Mata Uang
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+1-1000
+</td>
+<td style="text-align:left;">
+Aset Lancar (Current Asset)
+</td>
+<td style="text-align:left;">
+Aset (Asset)
+</td>
+<td style="text-align:left;">
+Rupiah
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+1-1101
+</td>
+<td style="text-align:left;">
+Kas (Cash on Hand)
+</td>
+<td style="text-align:left;">
+Kas/Bank (Cash/Bank)
+</td>
+<td style="text-align:left;">
+Rupiah
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+1-1201
+</td>
+<td style="text-align:left;">
+Piutang Usaha (Account Receivable)
+</td>
+<td style="text-align:left;">
+Piutang Usaha (Account Receivable)
+</td>
+<td style="text-align:left;">
+Rupiah
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+1-1400
+</td>
+<td style="text-align:left;">
+Perlengkapan (Supplies)
+</td>
+<td style="text-align:left;">
+Aset Lancar Lainnya (Other Current Asset)
+</td>
+<td style="text-align:left;">
+Rupiah
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+1-1500
+</td>
+<td style="text-align:left;">
+Sewa Dibayar Dimuka (Prepaid Rent)
+</td>
+<td style="text-align:left;">
+Aset Lancar Lainnya (Other Current Asset)
+</td>
+<td style="text-align:left;">
+Rupiah
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+1-1600
+</td>
+<td style="text-align:left;">
+PPN Masukan (VAT In)
+</td>
+<td style="text-align:left;">
+Aset Lancar Lainnya (Other Current Asset)
+</td>
+<td style="text-align:left;">
+Rupiah
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+1-2100
+</td>
+<td style="text-align:left;">
+Aset Tetap (Fixed Asset)
+</td>
+<td style="text-align:left;">
+Aset (Asset)
+</td>
+<td style="text-align:left;">
+Rupiah
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+1-2101
+</td>
+<td style="text-align:left;">
+Peralatan (Equipment)
+</td>
+<td style="text-align:left;">
+Aset Tetap (Fixed Asset)
+</td>
+<td style="text-align:left;">
+Rupiah
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+1-2200
+</td>
+<td style="text-align:left;">
+Akumulasi Penyusutan (Accumulated Depreciation)
+</td>
+<td style="text-align:left;">
+Akumulasi Penyusutan (Accumulation Depreciation)
+</td>
+<td style="text-align:left;">
+Rupiah
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+1-2201
+</td>
+<td style="text-align:left;">
+Akumulasi Penyusutan Peralatan (Accumulated Depreciation of Equipment)
+</td>
+<td style="text-align:left;">
+Akumulasi Penyusutan (Accumulation Depreciation)
+</td>
+<td style="text-align:left;">
+Rupiah
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+2-1000
+</td>
+<td style="text-align:left;">
+Liabilitas Jangka Pendek (Current Liability)
+</td>
+<td style="text-align:left;">
+Liabilitas (Liability)
+</td>
+<td style="text-align:left;">
+Rupiah
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+2-1101
+</td>
+<td style="text-align:left;">
+Utang Usaha (Account Payable)
+</td>
+<td style="text-align:left;">
+Utang Usaha (Account Payable)
+</td>
+<td style="text-align:left;">
+Rupiah
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+2-1300
+</td>
+<td style="text-align:left;">
+PPN Keluaran (VAT Out)
+</td>
+<td style="text-align:left;">
+Liabilitas Jangka Pendek Lainnya (Other Current Liability)
+</td>
+<td style="text-align:left;">
+Rupiah
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+3-1000
+</td>
+<td style="text-align:left;">
+Modal (Capital)
+</td>
+<td style="text-align:left;">
+Ekuitas (Equity)
+</td>
+<td style="text-align:left;">
+Rupiah
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+3-1100
+</td>
+<td style="text-align:left;">
+Modal (Capital)
+</td>
+<td style="text-align:left;">
+Ekuitas (Equity)
+</td>
+<td style="text-align:left;">
+Rupiah
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+3-1200
+</td>
+<td style="text-align:left;">
+Prive (Withdrawal)
+</td>
+<td style="text-align:left;">
+Ekuitas (Equity)
+</td>
+<td style="text-align:left;">
+Rupiah
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+4-0000
+</td>
+<td style="text-align:left;">
+Pendapatan (Income)
+</td>
+<td style="text-align:left;">
+Pendapatan (Income)
+</td>
+<td style="text-align:left;">
+Rupiah
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+4-1000
+</td>
+<td style="text-align:left;">
+Pendapatan Servis (Service Income)
+</td>
+<td style="text-align:left;">
+Pendapatan (Income)
+</td>
+<td style="text-align:left;">
+Rupiah
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+6-0000
+</td>
+<td style="text-align:left;">
+Beban (Expense)
+</td>
+<td style="text-align:left;">
+Beban (Expense)
+</td>
+<td style="text-align:left;">
+Rupiah
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+6-1100
+</td>
+<td style="text-align:left;">
+Beban Listri, Air, dan Telepon (Water, Telephone, and Electricity Expense)
+</td>
+<td style="text-align:left;">
+Beban (Expense)
+</td>
+<td style="text-align:left;">
+Rupiah
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+6-1200
+</td>
+<td style="text-align:left;">
+Beban Gaji (Salary Expense)
+</td>
+<td style="text-align:left;">
+Beban (Expense)
+</td>
+<td style="text-align:left;">
+Rupiah
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+6-1300
+</td>
+<td style="text-align:left;">
+Beban Perlengkapan (Supplies Expense)
+</td>
+<td style="text-align:left;">
+Beban (Expense)
+</td>
+<td style="text-align:left;">
+Rupiah
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+6-1400
+</td>
+<td style="text-align:left;">
+Beban Sewa (Rent Expense)
+</td>
+<td style="text-align:left;">
+Beban (Expense)
+</td>
+<td style="text-align:left;">
+Rupiah
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+6-2100
+</td>
+<td style="text-align:left;">
+Beban Penyusutan Peralatan (Depreciation of Equipment)
+</td>
+<td style="text-align:left;">
+Beban (Expense)
+</td>
+<td style="text-align:left;">
+Rupiah
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+8-0000
+</td>
+<td style="text-align:left;">
+Pendapatan Lain – Lain (Other Income)
+</td>
+<td style="text-align:left;">
+Pendapatan Lain – Lain (Other Income)
+</td>
+<td style="text-align:left;">
+Rupiah
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+9-0000
+</td>
+<td style="text-align:left;">
+Beban Lain – Lain (Other Expense)
+</td>
+<td style="text-align:left;">
+Beban Lain – Lain (Other Expense)
+</td>
+<td style="text-align:left;">
+Rupiah
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="langkah-langkah-pengerjaan" class="section level2 hasAnchor" number="3.3">
+<h2><span class="header-section-number">3.3</span> Langkah-Langkah Pengerjaan<a href="aplikasi-accurate-accounting-pada-perusahaan-jasa.html#langkah-langkah-pengerjaan" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Pengaturan Awal</p>
+<ol style="list-style-type: decimal">
+<li>Untuk membuka aplikasi Accurate Accounting V.5, Klik menu Start, pilih All Programs, pilih CPSSoft, dan kemudian pilih Accurate Accounting V.5. Dapat juga dengan langsung mengklik ikon Accurate Acccounting V.5 yang ada di desktop computer atau dari menu Quick Launch yang ada di Taskbar.</li>
+<li>Selanjutnya akan tampil manual form “Welcome to Accurate 5”.</li>
+<li>Terdapat lima ikon yang dapat dipilih, klik Create New Company untuk membuat data perusahaan yang baru. Pilih Local,lalu ketikkan nama berkas,Directory:Nama, lalu klik Next. Dapat juga dengan mengklik ikon ellipsis … pada jendela Create Database, lalu cari letak direktori D:, letak Folder, dan kemudian klik Create. Selanjutnya, klik Next.</li>
+<li>Tunggu beberapa saat sampai proses pembuatan database yang baru telah selesai dilakukan. Setelah selesai, aplikasi Accurate Accounting V.5 akan menampilkan form Login, yang mana Anda diminta mengisikan User ID dan Passoword. Perlu diperhatikan bahwa baik User ID maupun Password tidak case sensitive, artinya besar kecilnya huruf yang diketik tidak dibedakan. Selanjutnya klik Next.</li>
+</ol>
+<p>Persiapan Singkat (Quick Setup)</p>
+<ol style="list-style-type: decimal">
+<li>Pada menu utama, klik Persiapan, lalu klik Quick Setup. Pilih bahasa yang ingin Anda gunakan, misalnya, English. Berikutnya, klik Next.</li>
+<li>Berikutnya, muncul Setup Type. Anda diminta untuk memilih salah satu dari dua tipe persiapan, yakni Basic Setup dan Advance Setup. Pada Basic Setup, data yang akan diminta adalah Currency and Company Info, Cash/Bank, Customers and Vendors, serta Items and Service. Sementara pada Advance Setup, data yang diisikan lebih lengkap, seperti Currency and Company Info, Accounts and Other Lists, Customer and Vendor, Projects and Departments, Inventory, Fixed Assets, serta Trial Balance.Anda dianjurkan untuk memilih Advance Setup. Klik Next.</li>
+<li>Pada Quick Setup, terdapat bagian Currency and Company Info. Pada bagian Currency, klik Add, lalu isikan data pada kolom yang diminta.</li>
+<li>Pada bagian Company Info, isikan informasi mengenai Bengkel Mutu Nama Perusahaan : Bengkel Mutu Alamat : Jalan Tunggul, Ambarketawang, Yogyakarta Tanggal Mulai (Tutup Buku) : 30/11/2016 Tahun Fiskal : 2016 Default Periode : Muncul secara otomatis sesuai tanggal pengerjaan</li>
+<li>Klik Next, maka akan tampil bagian Company Tax Information. Anda dapat mengisi bagian tersebut jika ada data yang tersedia. Biarkan kosong jika tidak tersedia data mengenai pajak perusahaan. Selanjutnya klik Next.</li>
+<li>Pada bagian Accounts and Other Lists, akan muncul Chart of Account. Klik Add untuk menambahkan akun-akun yang belum ada, namun Anda perlu menyesuaikannya dengan masing-masing tipe akunnya. Selanjutnya, ganti No Akun dan Nama Akun untuk akun Akun Utang (Account Payable). Akun Piutang (Account Receivable), Pembayaran Dimuka Penjualan Diskon Penjualan (Sales Discount), Laba/Rugi Terealisasi (Realized Gain or Loss), serta Laba/Rugi Tak Terealisasi (Unrealized Gain or Loss) sesuai Daftar Akun yang ada. Selanjutnya, ganti akun Default untuk Saldo Laba (Retained Earning) menjadi akun Modal (Capital).</li>
+<li>Sebelum klik Next pastikan akun Default untuk masing-masing akun telah diisi dengan benar. Klik Next</li>
+<li>Berikutnya, pada bagian Other List, Anda diminta untuk mengisinya, jika terdapat informasi lain seperti Terms of Payment. Jika tidak ada informasi yang perlu ditambahkan, maka Anda dapat melewati bagian ini.</li>
+<li>Masukkan informasi mengenai pajak (jika ada). Jika tidak ada, klik Next.</li>
+<li>Selanjutnya, lengkapi bagian Customer Type Shipment Method. Masukkan informasi mengenai pelanggan dengan memilih Customer dan mengklik tombol Add.</li>
+<li>Klik Termin untuk melengkapi informasi terkait syarat penjualan jika ada serta saldo awal pelanggan (Opening Balance). Klik Next. Ulangi aktivitas ini untuk semua pelanggan.</li>
+<li>Klik Next, lalu lengkapi informasi mengenai pemasok. 13. Klik Termin untuk melengkapi informasi terkait syarat pembelian (jika ada), serta saldo awal pemasok (Opening Balance). Klik Next. Ulangi aktivitas ini untuk semua pemasok.</li>
+<li>Klik Next. Untuk saat ini, abaikan bagian Projects and Departments.</li>
+<li>Klik Next. Oleh karena Bengkel Mutu merupakan perusahaan jasa, maka untuk saat ini, abaikan bagian Inventory.</li>
+<li>Klik Next. Lengkapi bagian Fiscal Fixed Assets Type sesuai penggolongannya dalam pajak.</li>
+<li>Klik Next. Lengkapi bagian FA Type.</li>
+<li>Klik Next. Pada bagian Fixed Assets, Anda dapat melengkapinya sesuai daftar aset tetap yang digunakan oleh perusahaan.</li>
+<li>Klik Next, maka akan tampil Trial Balance.</li>
+<li>Klik Next. Anda juga dapat mengubah preferensi dengan mengklik Fitur, lalu centang pada bagian yang dapat mengubah No Invoice.</li>
+<li>Untuk membuat akun baru klik New. Ketik akun-akun yang akan dimasukkan, sesuaikan dengan tipe akunnya, dan sertakan saldo awal dari masing-masing akun tersebut.</li>
+<li>Setelah seluruh akun diinput, klik Update. Akun-akun yang sudah diinput tersebut akan masuk dalam Neraca Saldo (Trial Balance) yang baru.</li>
+<li>Lakukan aktivitas akhir periode (Period End) dengan mengklik Activities, lalu klik Periodic, klik Period End, lalu klik Next.</li>
+<li>Pada menu utama, klik Persiapan, klik Preference. Pada akun Saldo Laba (Retained Earnings), pilih akun Modal (Capital).</li>
+<li>Pada Chart of Account, lalu klik salah satu akun yang tercantum di dalamnya, kemudian klik Edit, dan input Saldo Awal Akun (Opening Balance) pada kolom Saldo sesuai besarnya modal yang dimiliki.klik Next.</li>
+<li>Lanjutkan dengan melakukan input transaksi-transaksi yang terjadi selama periode tersebut.</li>
+</ol>
+<p>Mencatat Transaksi-Transaksi Jurnal Umum</p>
+<ol style="list-style-type: decimal">
+<li>Pada menu utama klik Activities, lalu klik General Ledger, dan kemudian klik Journal Voucher.</li>
+<li>Buat ayat jurnal yang sesuai dengan transaksi-transaksi yang terjadi di Perusahaan selama periode tersebut.</li>
+<li>Selanjutnya klik Save &amp; New. Ulangi aktivitas ini untuk seluruh transaksi.</li>
+<li>Untuk melihat tampilan jurnal secara keseluruhan, Anda dapat mengklik Reports, lalu klik General Ledger. Pada General Journal Voucher, pilih General Ledger History. Selanjutnya, akan muncul Report Format. Atur periode jurnal yang ingin anda lihat pada bagian Kolom &amp; Filter - Parameter.</li>
+</ol>
+<p>Mencatat Jurnal Penyesuaian yang Diperlukan</p>
+<ol style="list-style-type: decimal">
+<li>Pada menu utama klik Activities, lalu klik General Ledger, dan kemudian klik Journal Voucher.</li>
+<li>Buat ayat jurnal penyesuaian yang diperlukan perusahaan selama periode tersebut.</li>
+<li>Selanjutnya klik Save &amp; New. Ulangi aktivitas ini untuk seluruh transaksi yang memerlukan jurnal penyesuaian.</li>
+<li>Sementara terkait jurnal penyesuaian untuk penyusutan aset tetap, lakukan aktivitas akhir periode (Period End) dengan memilih bulan Desember 2017, lalu klik Next.</li>
+<li>Untuk melihat tampilan jurnal penyesuaian secara keseluruhan, Anda dapat mengklik Reports, lalu klik General Ledger. Pada General Journal Voucher, pilih General Ledger History. Selanjutnya, akan muncul Report Format. Atur Periode jurnal yang ingin anda lihat pada bagian Kolom &amp; Filter – Parameter. Untuk melihat transaksi jurnal penyesuaian yang sudah diperbarui secara otomatis, pilih tanggal dari 31/12/2016 sampai 31/12/2016.</li>
+</ol>
+</div>
+<div id="laporan-keuangan" class="section level2 hasAnchor" number="3.4">
+<h2><span class="header-section-number">3.4</span> Laporan Keuangan<a href="aplikasi-accurate-accounting-pada-perusahaan-jasa.html#laporan-keuangan" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Untuk melihat Laporan Keuangan Anda dapat mengklik Report, lalu klik Financial Statements. Pada Report Category, pilih Financial Report. Pada Report Detail, pilih Balance Sheet (Standard) untuk mengetahui posisi keuangan perusahaan. Ketik tanggal Laporan Posisi Keuangan (Neraca) yang ingin ditampilkan. Selanjutnya pada Report Detail, pilih Profit/Loss (Standard) untuk mengetahui kinerja perusahaan. Ketik periode Laporan Laba Rugi yang ingin ditampilkan. Berikutnya pada Report Detail, pilih Cash Flow Report (Direct Method) untuk mengetahui arus kas masuk dan arus kas keluar yang terjadi di Perusahaan. Ketik periode Laporan arus kas yang ingin ditampilkan. Untuk menampilkan Laporan Perubahan Ekuitas, pada Report Detail pilih Changes in Owner Equity. Ketik periode Laporan Perubahan Ekuitas yang ingin ditampilkan</p>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="aplikasi-accurate-accounting-v.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="aplikasi-accurate-accounting-pada-perusahaan-dagang.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/USERNAME/REPO/edit/BRANCH/02-accurate_accounting_jasa.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

@@ -1,0 +1,163 @@
+# Aplikasi Accurate Accounting Pada Perusahaan Jasa
+
+## Capaian Pembelajaran {.unnumbered}
+
+Setelah mempelajari bab ini, Anda diharapkan mampu:
+
+1.  Menjelaskan secara sekilas mengenai perusahaan jasa.
+2.  Mempraktikkan contoh kasus dari perusahaan jasa dengan Accurate Accounting V.5.
+3.  Menjelaskan dan mempraktikkan langkah -- langkah persiapan bekerja dengan Accurate Accounting V.5.
+4.  Menjelaskan dan mempraktikkan cara melakukan input transaksi -- transaksi yang terjadi di perusahaan jasa dengan Accurate Accounting V.5.
+5.  Menjelaskan dan mempraktikkan cara menyusun laporan keuangan dengan Accurate Accounting V.5.
+
+## Sekilas Perusahaan Jasa
+
+Perusahaan jasa adalah suatu entitas/unit usaha yang kegiatan utamanya menyediakan layanan atau jasa dengan tujuan memperoleh keuntungan atau laba. Produk yang dihasilkan perusahaan jasa bersifat tidak berwujud atau kombinasi antara barang dengan layanan. Sebagai contoh, perusahaan transportasi umum yang menyediakan jasa transportasi umum kepada para pelanggan. Perusahaan ini memerlukan alat/sarana transportasi, seperti mobil, bus, kapal laut, atau pesawat terbang. Siklus akuntansi untuk menyusun laporan keuangan pada perusahaan jasa terdiri dari beberapa langkah berikut:
+
+a.  Pencatatan
+b.  Penggolongan
+c.  Pengikhtisaran
+d.  Laporan Keuangan
+
+Beberapa karakteristik yang dimiliki oleh perusahaan jasa, antara lain:
+
+a.  Tidak memiliki wujud (sifat abstrak dan tidak bisa dilihat).
+b.  Produk yang dihasilkannya tidak standar atau bervariasi (heterogenitas).
+c.  Tidak dapat dipisahkan antara produk yang dihasilkan dengan produk yang dikonsumsi.
+d.  Tidak dapat disimpan karena produk jasa tak berwujud.
+
+Berikut ciri-ciri perusahaan dari perusahaan yang dapat Anda kenali dengan mudah:
+
+a.  Pendapatan berasal dari penyediaan jasa kepada para pelanggan.
+b.  Dalam proses penyediaan suatu produk jasa, perusahaan dapat menggunakan dukungan dari produk fisik, tetapi juga bisa tidak.
+c.  Tidak memiliki persediaan suatu produk dalam bentuk fisik karena produk yang dihasilkan merupakan barang takberwujud (jasa). Produk yang dihasilkan hanya bisa dirasakan manfaatnya, tetapi tidak dapat dilihat fisiknya.
+d.  Jasa yang diberikan tidak sama. Hal ini karena kemungkinan setiap pelanggan memperoleh jenis layanan/jasa yang berbeda.
+e.  Besarnya harga yang dibayarkan para pelanggan umumnya memiliki sifat yang tidak mutlak karena harga yang ditetapkan perusahaan tergantung pada jenis layanan/jasa yang diberikan dan juga tentunya, tingkat kebutuhan pelanggan.
+f.  Jasa yang dihasilkan tidak dapat disimpan. Hal ini berarti jasa yang disediakan perusahaan sama dengan jasa yang dikonsumsi pelanggannya.
+
+## Contoh Kasus Perusahaan Jasa Dengan Accurate Accounting V.5
+
+Tn. Dimas memiliki sebuah bengkel servis kendaraan bernama Bengkel Mutu yang berlokasi di Jalan Tunggul, Ambarketawang, Yogyakarta. Tn. Dimas telah memulai usahanya sejak bulan Maret 2015 dan saat ini bengkel tersebut memiliki dua orang karyawan.
+
+BENGKEL MUTU NERACA SALDO
+
+Per Tanggal 1 Desember 2016
+
+```{r echo=FALSE}
+library(kableExtra)
+library(readxl)
+NS_Mutu <- read_excel("Komputasi.xlsx", sheet = "Neraca Saldo Mutu")
+View(NS_Mutu)
+knitr::kable(NS_Mutu)
+```
+Daftar Piutang dan Utang 
+```{r echo=FALSE}
+library(kableExtra)
+library(readxl)
+Daftar1_Mutu <- read_excel("Komputasi.xlsx", 
+    sheet = "Daftar Piutang Mutu")
+View(Daftar1_Mutu)
+knitr::kable(Daftar1_Mutu)
+```
+```{r echo=FALSE}
+library(kableExtra)
+library(readxl)
+Daftar2_Mutu <- read_excel("Komputasi.xlsx", 
+    sheet = "Daftar Utang Mutu", na = "0")
+View(Daftar2_Mutu)
+knitr::kable(Daftar2_Mutu)
+```
+Berikut transaksi -- transaksi yang terjadi selama bulan Desember 2016 :
+
+3 Desember 2016 Membeli perlengkapan untuk bengkel sebesar Rp 500.000 secara tunai.
+
+4 Desember 2016 Menerima pendapatan servis sebesar Rp 1.500.000 secara tunai.
+
+10 Desember 2016 Menerima pelunasan piutang usaha sebesar Rp 400.000.
+
+15 Desember 2016 Membayar biaya Listrik, air, dan telepon sebesar Rp 300.000.
+
+17 Desember 2016 Membayar utang usaha sebesar Rp 250.000 20 Desember 2016 Menerima pendapatan servis sebesar Rp 3.000.000 secara tunai.
+
+30 Desember 2016 Membayar gaji dua orang karyawan sebesar Rp 3.000.000
+
+Data Penyesuaian:
+
+a.  Perlengkapan yang digunakan senilai Rp500.000.
+b.  Sewa dibayar dimuka adalah sewa tempat untuk bengkel selama 1 tahun terhitung mulai bulan Januari 2016.
+c.  Penyusutan peralatan menggunakan metode garis lurus dengan umur ekonomis selama lima tahun. Peralatan tersebut dibeli pada bulan Maret 2015 dan langsung digunakan.
+
+Anda diminta untuk:
+
+1.  Membuat laporan akuntansi menggunakan Accurate Accounting V.5
+2.  Melakukan beberapa aktivitas akhir periode yang diperlukan.
+3.  Membuat laporan keuangan akhir periode yang dibutuhkan.
+
+Daftar Akun (Account List)
+
+Bengkel Mutu
+
+```{r echo=FALSE}
+library(kableExtra)
+library(readxl)
+coa_mutu <- read_excel("Komputasi.xlsx", 
+    sheet = "Coa Bengkel Mutu")
+View(coa_mutu)
+knitr::kable(coa_mutu)
+```
+
+## Langkah-Langkah Pengerjaan
+
+Pengaturan Awal
+
+1.  Untuk membuka aplikasi Accurate Accounting V.5, Klik menu Start, pilih All Programs, pilih CPSSoft, dan kemudian pilih Accurate Accounting V.5. Dapat juga dengan langsung mengklik ikon Accurate Acccounting V.5 yang ada di desktop computer atau dari menu Quick Launch yang ada di Taskbar.
+2.  Selanjutnya akan tampil manual form "Welcome to Accurate 5".
+3.  Terdapat lima ikon yang dapat dipilih, klik Create New Company untuk membuat data perusahaan yang baru. Pilih Local,lalu ketikkan nama berkas,Directory:\Folder\File Nama, lalu klik Next. Dapat juga dengan mengklik ikon ellipsis ... pada jendela Create Database, lalu cari letak direktori D:, letak Folder, dan kemudian klik Create. Selanjutnya, klik Next.
+4.  Tunggu beberapa saat sampai proses pembuatan database yang baru telah selesai dilakukan. Setelah selesai, aplikasi Accurate Accounting V.5 akan menampilkan form Login, yang mana Anda diminta mengisikan User ID dan Passoword. Perlu diperhatikan bahwa baik User ID maupun Password tidak case sensitive, artinya besar kecilnya huruf yang diketik tidak dibedakan. Selanjutnya klik Next.
+
+Persiapan Singkat (Quick Setup)
+
+1.  Pada menu utama, klik Persiapan, lalu klik Quick Setup. Pilih bahasa yang ingin Anda gunakan, misalnya, English. Berikutnya, klik Next.
+2.  Berikutnya, muncul Setup Type. Anda diminta untuk memilih salah satu dari dua tipe persiapan, yakni Basic Setup dan Advance Setup. Pada Basic Setup, data yang akan diminta adalah Currency and Company Info, Cash/Bank, Customers and Vendors, serta Items and Service. Sementara pada Advance Setup, data yang diisikan lebih lengkap, seperti Currency and Company Info, Accounts and Other Lists, Customer and Vendor, Projects and Departments, Inventory, Fixed Assets, serta Trial Balance.Anda dianjurkan untuk memilih Advance Setup. Klik Next.
+3.  Pada Quick Setup, terdapat bagian Currency and Company Info. Pada bagian Currency, klik Add, lalu isikan data pada kolom yang diminta.
+4.  Pada bagian Company Info, isikan informasi mengenai Bengkel Mutu Nama Perusahaan : Bengkel Mutu Alamat : Jalan Tunggul, Ambarketawang, Yogyakarta Tanggal Mulai (Tutup Buku) : 30/11/2016 Tahun Fiskal : 2016 Default Periode : Muncul secara otomatis sesuai tanggal pengerjaan
+5.  Klik Next, maka akan tampil bagian Company Tax Information. Anda dapat mengisi bagian tersebut jika ada data yang tersedia. Biarkan kosong jika tidak tersedia data mengenai pajak perusahaan. Selanjutnya klik Next.
+6.  Pada bagian Accounts and Other Lists, akan muncul Chart of Account. Klik Add untuk menambahkan akun-akun yang belum ada, namun Anda perlu menyesuaikannya dengan masing-masing tipe akunnya. Selanjutnya, ganti No Akun dan Nama Akun untuk akun Akun Utang (Account Payable). Akun Piutang (Account Receivable), Pembayaran Dimuka Penjualan Diskon Penjualan (Sales Discount), Laba/Rugi Terealisasi (Realized Gain or Loss), serta Laba/Rugi Tak Terealisasi (Unrealized Gain or Loss) sesuai Daftar Akun yang ada. Selanjutnya, ganti akun Default untuk Saldo Laba (Retained Earning) menjadi akun Modal (Capital).
+7.  Sebelum klik Next pastikan akun Default untuk masing-masing akun telah diisi dengan benar. Klik Next
+8.  Berikutnya, pada bagian Other List, Anda diminta untuk mengisinya, jika terdapat informasi lain seperti Terms of Payment. Jika tidak ada informasi yang perlu ditambahkan, maka Anda dapat melewati bagian ini.
+9.  Masukkan informasi mengenai pajak (jika ada). Jika tidak ada, klik Next.
+10. Selanjutnya, lengkapi bagian Customer Type Shipment Method. Masukkan informasi mengenai pelanggan dengan memilih Customer dan mengklik tombol Add.
+11. Klik Termin untuk melengkapi informasi terkait syarat penjualan jika ada serta saldo awal pelanggan (Opening Balance). Klik Next. Ulangi aktivitas ini untuk semua pelanggan.
+12. Klik Next, lalu lengkapi informasi mengenai pemasok. 13. Klik Termin untuk melengkapi informasi terkait syarat pembelian (jika ada), serta saldo awal pemasok (Opening Balance). Klik Next. Ulangi aktivitas ini untuk semua pemasok.
+13. Klik Next. Untuk saat ini, abaikan bagian Projects and Departments.
+14. Klik Next. Oleh karena Bengkel Mutu merupakan perusahaan jasa, maka untuk saat ini, abaikan bagian Inventory.
+15. Klik Next. Lengkapi bagian Fiscal Fixed Assets Type sesuai penggolongannya dalam pajak.
+16. Klik Next. Lengkapi bagian FA Type.
+17. Klik Next. Pada bagian Fixed Assets, Anda dapat melengkapinya sesuai daftar aset tetap yang digunakan oleh perusahaan.
+18. Klik Next, maka akan tampil Trial Balance.
+19. Klik Next. Anda juga dapat mengubah preferensi dengan mengklik Fitur, lalu centang pada bagian yang dapat mengubah No Invoice.
+20. Untuk membuat akun baru klik New. Ketik akun-akun yang akan dimasukkan, sesuaikan dengan tipe akunnya, dan sertakan saldo awal dari masing-masing akun tersebut.
+21. Setelah seluruh akun diinput, klik Update. Akun-akun yang sudah diinput tersebut akan masuk dalam Neraca Saldo (Trial Balance) yang baru.
+22. Lakukan aktivitas akhir periode (Period End) dengan mengklik Activities, lalu klik Periodic, klik Period End, lalu klik Next.
+23. Pada menu utama, klik Persiapan, klik Preference. Pada akun Saldo Laba (Retained Earnings), pilih akun Modal (Capital).
+24. Pada Chart of Account, lalu klik salah satu akun yang tercantum di dalamnya, kemudian klik Edit, dan input Saldo Awal Akun (Opening Balance) pada kolom Saldo sesuai besarnya modal yang dimiliki.klik Next.
+25. Lanjutkan dengan melakukan input transaksi-transaksi yang terjadi selama periode tersebut.
+
+Mencatat Transaksi-Transaksi Jurnal Umum
+
+1.  Pada menu utama klik Activities, lalu klik General Ledger, dan kemudian klik Journal Voucher.
+2.  Buat ayat jurnal yang sesuai dengan transaksi-transaksi yang terjadi di Perusahaan selama periode tersebut.
+3.  Selanjutnya klik Save & New. Ulangi aktivitas ini untuk seluruh transaksi.
+4.  Untuk melihat tampilan jurnal secara keseluruhan, Anda dapat mengklik Reports, lalu klik General Ledger. Pada General Journal Voucher, pilih General Ledger History. Selanjutnya, akan muncul Report Format. Atur periode jurnal yang ingin anda lihat pada bagian Kolom & Filter - Parameter.
+
+Mencatat Jurnal Penyesuaian yang Diperlukan
+
+1.  Pada menu utama klik Activities, lalu klik General Ledger, dan kemudian klik Journal Voucher.
+2.  Buat ayat jurnal penyesuaian yang diperlukan perusahaan selama periode tersebut.
+3.  Selanjutnya klik Save & New. Ulangi aktivitas ini untuk seluruh transaksi yang memerlukan jurnal penyesuaian.
+4.  Sementara terkait jurnal penyesuaian untuk penyusutan aset tetap, lakukan aktivitas akhir periode (Period End) dengan memilih bulan Desember 2017, lalu klik Next.
+5.  Untuk melihat tampilan jurnal penyesuaian secara keseluruhan, Anda dapat mengklik Reports, lalu klik General Ledger. Pada General Journal Voucher, pilih General Ledger History. Selanjutnya, akan muncul Report Format. Atur Periode jurnal yang ingin anda lihat pada bagian Kolom & Filter -- Parameter. Untuk melihat transaksi jurnal penyesuaian yang sudah diperbarui secara otomatis, pilih tanggal dari 31/12/2016 sampai 31/12/2016.
+
+## Laporan Keuangan
+
+Untuk melihat Laporan Keuangan Anda dapat mengklik Report, lalu klik Financial Statements. Pada Report Category, pilih Financial Report. Pada Report Detail, pilih Balance Sheet (Standard) untuk mengetahui posisi keuangan perusahaan. Ketik tanggal Laporan Posisi Keuangan (Neraca) yang ingin ditampilkan. Selanjutnya pada Report Detail, pilih Profit/Loss (Standard) untuk mengetahui kinerja perusahaan. Ketik periode Laporan Laba Rugi yang ingin ditampilkan. Berikutnya pada Report Detail, pilih Cash Flow Report (Direct Method) untuk mengetahui arus kas masuk dan arus kas keluar yang terjadi di Perusahaan. Ketik periode Laporan arus kas yang ingin ditampilkan. Untuk menampilkan Laporan Perubahan Ekuitas, pada Report Detail pilih Changes in Owner Equity. Ketik periode Laporan Perubahan Ekuitas yang ingin ditampilkan
