@@ -231,7 +231,7 @@ h.  ada PPN sebesar 10%.
 15. Untuk mengatur syarat pembayaran dan PPN pada pemasok, klik List. Selanjutnya, klik dua kali pada Vendors.
 16. Klik dua kali pada salah satu pemasok. Selanjutnya, klik Terms, etc. Pada bagian Terms, Pilih syarat pembayaran pada pemasok. Sebagai contoh, syarat pembayaran 5/10, n/30 Untuk CV Usaha Maju. Sementara pada bagian Tax, pilih besarnya PPN yang dibebankan misalnya, 10%. Klik Next. Ulangi Aktivitas ini untuk semua pemasok. Klik Next.
 17. Untuk mengatur syarat pembayaran dan PPN pada pelanggan, klik List. Selanjutnya, klik dua kali pada Customer.
-18. Klik dua kali pada salah satu pelanggan selanjutnya klik Terms,etc.Pada bagian Term, pilih syarat pembayaran pada pelanggan. Sebagai contoh, Oh cara pembayaran 2/10 N 30 untuk PT Gunung Agung. Selanjutnya klik Sales. pada bagian Tax, itu pilih besarnya PPN yang dibebankan, misalnya 10%. Klik Next. ulangi Aktivitas ini untuk semua pelanggan klik Next.
+18. Klik dua kali pada salah satu pelanggan selanjutnya klik Terms,etc.Pada bagian Term, pilih syarat pembayaran pada pelanggan. Sebagai contoh, syarat pembayaran 2/10 N 30 untuk PT Gunung Agung. Selanjutnya klik Sales. pada bagian Tax, itu pilih besarnya PPN yang dibebankan, misalnya 10%. Klik Next. ulangi Aktivitas ini untuk semua pelanggan klik Next.
 19. Berikutnya dengan aset tetap (Fixed Asset), ada tiga bagian, yakni tipe aset tetap kena pajak (fiscal Fixed Asset Type), tipe aset tetap (Fixed Asset Type), dan aset tetap baru (New Fixed aset). Untuk tipe aset tetap kena pajak (fiscal Fixed Asset Type), klik Fixed Asset. Selanjutnya, klik dua kali pada Tipe Aset Tetap Kena Pajak (Fiscal Fixed Asset Type).
 20. Klik New, lalu lengkap informasi mengenai tipe aset tetap kena pajak. Klik Next. Ulangi aktivitas ini untuk semua tipe aset tetap kena pajak. Selanjutnya klik Refresh untuk melihat hasilnya.
 21. Untuk tipe aset tetap (Fixed Asset Type), klik Fixed Asset. Selanjutnya klik dua kali pada Tipe Aset Tetap (Fixed Asset Type).
@@ -247,101 +247,103 @@ h.  ada PPN sebesar 10%.
 
 **Penyelesaian Contoh Kasus Terkait Transaksi-Transaksi yang terjadi di Perusahaan**
 
-Bukti 1 -- Tanggal 2 Januari 2016 Melakukan pesanan pembelian kepada CV Usaha Maju dengan membayar uang muka sebesar Rp.6.000.000. No. Bukti kas keluar 01/PO/01/2016.
+Bukti 1 -- Tanggal 2 Januari 2016. Melakukan pesanan pembelian kepada CV Usaha Maju dengan membayar uang muka sebesar Rp.6.000.000 melalui rekening BCA. Barang yang dibeli adalah Queen C-405 sebanyak 10 unit dengan harga Rp.1.200.000,- per unit dan Queen C-605 sebanyak 30 unit dengan harga Rp. 325.000,- per unit. No. Bukti kas keluar 01/PO/01/2016.Termin pembelian 5/10, n/30.
 
 1.  Klik Activites -- Purchases -- Purchase Order. Isi kolom-kolom yang ada.
-2.  Selanjutnya, klik Down Payment untuk mencatat besarnya uang muka atas transaksi pesanan pembelian tersebut.
+2.  Selanjutnya, klik Down Payment untuk mencatat besarnya uang muka atas transaksi pesanan pembelian tersebut.Nomor bukti Down Payment adalah UM 001-16
 3.  Selanjutnya, klik Purchase Payment untuk membayar uang muka atas transaksi pesanan tersebut.
 4.  Klik Save & Close.
 
-Bukti 2 -- Tanggal 2 Januari 2016
+Bukti 2 -- Tanggal 2 Januari 2016. Membayar utang usaha kepada CV Usaha Maju sebesar Rp. 24.000.000,- menggunakan cek BCA. Nomor bukti kas keluar 02/KK/01/2016
 
 1.  Klik Activities -- Purchases -- Purchase Payment. Isi kolom-kolom yang ada.
 2.  Klik Save & Close.
 
-Bukti 3 - Tanggal 3 Januari 2016 Melakukan penjualan di counter secara tunai yang berarti menambah saldo kas perusahaan sebesar Rp.24.956.250. No. faktur 01/J/01/2016
+Bukti 3 - Tanggal 3 Januari 2016. Melakukan penjualan di counter secara tunai yang berarti menambah saldo kas perusahaan sebesar Rp.24.956.250. Barang yang terjual adalah Queen C-405 sebanyak 8 unit dengan harga jual Rp.1.500.000,- per unit dan Queen C-605 sebanyak 30 unit dengan harga jual Rp.375.000,- per unit. Discount sebesar 5% untuk barang PO2. No. faktur 01/J/01/2016
 
 1.  Klik Activities -- Sales -- Sales Invoice. Isi kolom-kolom yang ada.
 2.  Selanjutnya, klik Sales Receipt. Isi kolom-kolom yang ada.
 3.  Klik Save & Close.
 
-Bukti 4 -- Tanggal 3 Januari 2016 Menerima pelunasan piutang dari penjualan dengan no. faktur FP-512061 sebesar Rp.14.550.000. No. bukti kas masuk 02/KM/01/2016.
+Bukti 4 -- Tanggal 3 Januari 2016. Menerima pelunasan piutang dari penjualan dengan no. faktur FP-512061 sebesar Rp.14.550.000. Discount sebesar 3%. No. bukti kas masuk 02/KM/01/2016.
 
 1.  Klik Activities -- Sales -- Sales Receipt. Isi kolom-kolom yang ada.
 2.  Klik Save & Close.
 
-Bukti 5 -- Tanggal 4 Januari 2015 Menerima barang yang dipesan pada CV Usaha Maju dengan no. bukti surat jalan SJ-222 dan no. formulir penerimaan barang PI-002.
+Bukti 5 -- Tanggal 4 Januari 2016. Menerima barang yang dipesan pada CV Usaha Maju dengan no. bukti surat jalan SJ-222 dan no. formulir penerimaan barang PI-002.
 
 1.  Klik Activities -- Purchase -- Receive Item. Pada bagian Vendor. Pilih CV Usaha Maju. Klik Select PO, lalu pilih PO barang yang diterima. Lengkapi kolom-kolom yang ada..
 2.  Klik Save & Close.
 
-Bukti 6 -- Tanggal 6 Januari 2016 Melakukan pengembalian (retur) barang yang dipesan pada CV Usaha Maju dengan no. nota Kredit 01/NK.02/2016.
+Bukti 6 -- Tanggal 6 Januari 2016. Melakukan pengembalian (retur) barang yang dipesan pada CV Usaha Maju dengan no. nota Kredit 01/NK.02/2016. Barang yang rusak dan dikembalikan adalah Queen C-605 sebanyak 1 unit.
 
 1.  Klik Activities -- Purchase -- Purchase Return. Lengkapi kolom-kolom yang ada.
 2.  Klik Save & Close
 
-Bukti 7 -- Tanggal 11 Januari 2016 Menerima pemindahbukuan dari Bank Mandiri ke Bank BCA senilai Rp.30.000.000. No. bukti kas keluar 03/KK/01/2016.
+Bukti 7 -- Tanggal 11 Januari 2016. Menerima pemindahbukuan dari Bank Mandiri ke Bank BCA senilai Rp.30.000.000. No. bukti kas keluar 03/KK/01/2016.
 
 1.  Klik Activities -- General Ledger -- Journal Voucher. Lengkapi kolom-kolom yang ada.
 2.  Klik Save & Close.
 
-Bukti 8 -- Tanggal 11 Januari 2016 Menerima pengembalian (retur) barang yang dijual di counter dengan no. nota retur 01/NR/01/2016.
+Bukti 8 -- Tanggal 11 Januari 2016. Menerima pengembalian (retur) barang yang dijual di counter dengan no. nota retur 01/NR/01/2016. Barang yang dikembalikan adalah Queen C-605 sebanyak 1 unit.
 
 1.  Klik Activities -- Sales -- Sales Return. Lengkapi kolom-kolom yang ada.
 2.  Buat ayat jurnal koreksi retur penjualan ini dicatat oleh Accurate Accounting V.5 pada akun Piutang Usaha, padahal transaksi penjualannya dilakukan secara tunai.
 3.  Klik Save & Close.
 
-Bukti 9 -- Tanggal 18 Januari 2016 Membayar beban Listrik dan telepon sebesar Rp387.500 dengan no. bukti kas keluar 04/KK/01/2016.
+Bukti 9 -- Tanggal 18 Januari 2016. Membayar beban Listrik dan telepon sebesar Rp387.500 dengan no. bukti kas keluar 04/KK/01/2016. Rincian pembayaran adalah Rp. 175.000,- untuk rekening listrik dan Rp. 212.500,- untuk rekening telepon bulan Desember. Pembayaran dilakukan menggunakan rekening Bank Mandiri.
 
 1.  Klik Activities -- Cash & Bank -- Payment. Lengkapi kolom-kolom yang ada.
 2.  Klik Save & Close.
 
-Bukti 10 -- Tanggal 21 Januari 2016 Membeli motor honda senilai Rp11.500.000 dengan no. bukti kas keluar 05/KK/01/2016
+Bukti 10 -- Tanggal 21 Januari 2016. Membeli motor honda senilai Rp11.500.000 dengan no. bukti kas keluar 05/KK/01/2016. Pembayaran dilakukan dengan Bank BCA.
 
 1.  Klik Activities -- New Fixed Asset. Lengkapi kolom-kolom yang ada.
 2.  Klik Expenditures untuk mencatat harga perolehan aset tetap tersebut. Lengkapi kolom-kolom yang ada.
 3.  Klik Save & Close.
 
-Bukti 11 -- Tanggal 22 Januari 2016 Melakukan penjualan atas
+Bukti 11 -- Tanggal 22 Januari 2016. Melakukan penjualan atas
 barang-barang dengan no. kode produk P03, P05, dan P06 senilai
-Rp29.425.000 ke Toko Buku Utama dengan no. faktur 02/J/01/2016
+Rp29.425.000 ke Toko Buku Utama dengan no. faktur 02/J/01/2016. Rincian penjualan: P03 sebanyak 5 unit dengan harga Rp.1.750.000,- per unit, P05 sebanyak 4 unit dengan harga Rp.3.375.000,- per unit, dan P06 sebanyak 6 unit dengan harga Rp.750.000,- per unit. Syarat penjualan 2/10, n/30.
 
 1.  Klik Activities -- Sales -- Sales Invoice. Lengkapi kolom-kolom yang ada.
 2.  Klik Save & Close. Bukti 12 -- Tanggal 23 Januari 2016
 
-Pelanggan perusahaan, yakni PT Gunung Agung memesan barang dengan no. PO GA-001 dan membayar uang muka sebesar Rp10.000.000 melalui Bank Mandiri.
+Bukti 12 -- Tanggal 23 Januari 2016. Pelanggan perusahaan, yakni PT Gunung Agung memesan barang dengan no. PO GA-001 dan membayar uang muka sebesar Rp10.000.000 melalui Bank Mandiri.Termin pembayaran 2/10, n/30.  Rincian barang yang dipesan adalah:
+
+- P07 sebanyak 6 unit, harga Rp.1.650.000,- per unit.
+- P08 sebanyak 8 unit, harga Rp.2.100.000,- per unit.
+- P09 sebanyak 7 unit, harga Rp.1.450.000,- per unit.
 
 1.  Klik Activities -- Sales -- Sales Order. Lengkapi kolom-kolom yang ada.
 2.  Selanjutnya, klik Down Payment untuk mencatat besarnya uang muka atas transaksi-transaksi penjualan tersebut.
 3.  Selanjutnya, klik Customer Receipt untuk mencatat penerimaan uang muka atas transaksi penjualan tersebut.
 4.  Klik Save & Close.
 
-Bukti 13 -- Tanggal 24 Januari 2016 Menerima pengembalian (retur) barang yang dijual kepada Toko Buku Utama dengan no. nota retur 02/NR/01/2016.
+Bukti 13 -- Tanggal 24 Januari 2016. Menerima pengembalian (retur) barang yang dijual kepada Toko Buku Utama dengan no. nota retur 02/NR/01/2016. Barang yang dikembalikan berkode P03 sebanyak 1 unit.
 
 1.  Klik Activities -- Sales -- Sales Return. Lengkapi kolom-kolom yang ada.
 2.  Klik Save & Close.
 
-Bukti 14 -- Tanggal 26 Januari 2016 Melakukan penjualan atas
-barang-barang dengan no. kode produk P03, P07, DAN P08 senilai
-Rp.31.559.000 ke CV Mebel Abadi dengan no. faktur 04/J/01/2016.
-Pembayaran dilakukan dengan cek Bank Mandiri.
+Bukti 14 -- Tanggal 26 Januari 2016. Melakukan penjualan atas
+barang-barang dengan no. kode produk P03 (8 unit, harga Rp.1.750.000,-), P07 (6 unit, harga Rp.1.650.000,-), dan P08 (3 unit, harga Rp.2.100.000,-) total nilai Rp.31.559.000 ke CV Mebel Abadi dengan no. faktur 04/J/01/2016. Discount diberikan sebesar 5% dan pembayaran dilakukan dengan cek Bank Mandiri.
 
 1.  Klik Activities -- Sales -- Sales Invoice. Lengkapi kolom-kolom yang ada.
 2.  Oleh karena transaksi penjualannya dilakukan secara tunai, klik Customer Receipt yang berada di bagian kiri atas. Lengkapi
     kolom-kolom yang ada.
 3.  Klik Save & Close.
 
-Bukti 15 -- Tanggal 28 Januari 2016 Melakukan pembayaran sebagian utang kepada UD Bersaudara senilai Rp22.000.000 dengan no. bukti kas keluar 05/KK/01/2016. Pembayaran dilakukan melalui Bank BCA senilai Rp10.000.000 dan Bank Mandiri senilai Rp12.000.000.
+Bukti 15 -- Tanggal 28 Januari 2016. Melakukan pembayaran sebagian utang kepada UD Bersaudara senilai Rp22.000.000 dengan no. bukti kas keluar 05/KK/01/2016. Pembayaran dilakukan melalui Bank BCA senilai Rp10.000.000 dan Bank Mandiri senilai Rp12.000.000.
 
 1.  Klik Activities -- General Ledger -- Journal Voucher. Lengkapi kolom-kolom yang ada.
 2.  Klik Save & Close.
 
-Bukti 16 -- Tanggal 29 Januari 2016
+Bukti 16 -- Tanggal 29 Januari 2016. Melakukan pembayaran beban pemasaran sebesar Rp.750.000,-, beban transportasi sebesar Rp.250.000,-, dan beban perawatan AC sebesar Rp.250.000,-. Pembayaran dilakukan melalui rekening BCA. Nomor bukti kas keluar 06/KK/01/2016.
 
 1.  Klik Activities -- Cash & Bank -- Payment. Lengkapi kolom-kolom yang ada.
 2.  Klik Save & Close.
 
-Bukti 17 -- Tanggal 29 Januari 2016 Pelunasan utang pada CV Usaha Maju berdasarkan Bukti 1 melalui Bank BCA.
+Bukti 17 -- Tanggal 29 Januari 2016. Pelunasan utang pada CV Usaha Maju berdasarkan Bukti 1 melalui Bank BCA.
 
 1.  Klik Activities -- Purchase -- Purchase Payment. Lengkapi
     kolom-kolom yang ada.
@@ -352,12 +354,12 @@ Bukti 18 -- Tanggal 30 Januari 2016 Pelunasan piutang dari Toko Buku Utama berda
 1.  Klik Activities -- Sales -- Sales Receipt. Lengkapi kolom-kolom yang ada.
 2.  Klik Save & Close.
 
-Bukti 19 -- Tanggal 31 Januari 2016 Pembayaran gaji karyawan untuk bulan Januari 2016 sebesar Rp14.500.000.
+Bukti 19 -- Tanggal 31 Januari 2016 Pembayaran gaji karyawan untuk bulan Januari 2016 sebesar Rp14.500.000. Dibayarkan melalui rekening BCA dengan nomor bukti 07/KK/01/2016.
 
 1.  Klik Activities -- Cash & Bank -- Payment. Lengkapi kolom-kolom yang ada.
 2.  Klik Save & Close.
 
-Bukti 20 -- Tanggal 31 Januari 2016
+Bukti 20 -- Tanggal 31 Januari 2016. Melakukan rekonsiliasi PPN Masukan dan PPN Keluaran untuk transaksi bulan Januari 2016. Buatlah akun baru PPN Kurang Bayar dengan nomor akun 2-1203 dan tipe akun Hutang Lancar Lainnya. Perhatikan langkah-langkah rekonsiliasi berikut:
 
 1.  Nilai akhir dari PPN Keluaran (VAT Out) dan PPN Masukan (VAT In) dapat diketahui dengan mengklik Report -- Index to Report -- Tax Support Report (Indonesia). Selanjutnya, klik dua kali pada Rekonsiliasi PPN Lebih/Kurang Bayar.
 2.  Sesuaikan periode, yakni tanggal 1 Januari 2016 sampai dengan tanggal 31 Januari 2016. Klik Next.
